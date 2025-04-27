@@ -29,11 +29,13 @@ the VSM Server always connects to the machine that is up and running.
 ##
     sudo nano vsmagent.hconf
 
+
 2. edit master_hostname with ip adress from tailscale *
 
 >##The host that runs the VSM server (master machine)##
 >
 >master_hostname=*
+
 
 3. restart service vsmagent
 
@@ -41,7 +43,6 @@ the VSM Server always connects to the machine that is up and running.
     systemctl restart vsmagent
 ___
 
-(resources:)
 
 * https://www.cendio.com/resources/docs/tag/config_vsmserver.html#std-server-config-folder-vsmserver
 
@@ -50,3 +51,5 @@ ___
 
 + https://www.cendio.com/resources/docs/tag/man/tl-config.1.html
 ___
+
+last update: 2025-04-27
