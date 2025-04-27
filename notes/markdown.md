@@ -13,4 +13,4 @@ ___
 - https://stackoverflow.com/questions/31908564/easy-way-to-add-copy-to-clipboard-to-github-markdown
 ____
 
-last update markdown.md 2025-04-27
+last update markdown.md - 2025-04-27
