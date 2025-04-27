@@ -24,7 +24,7 @@ to ensure that services on the agents that need to access
 the VSM Server always connects to the machine that is up and running.
 
 
-1. go to root /opt/thinlinc/etc/conf.d
+1. go to root /opt/thinlinc/etc/conf.d and edit file: vsmagent.hconf
 
 ##
     sudo nano vsmagent.hconf
@@ -43,10 +43,10 @@ ___
 
 (resources:)
 
-*https://www.cendio.com/resources/docs/tag/config_vsmserver.html#std-server-config-folder-vsmserver
+* https://www.cendio.com/resources/docs/tag/config_vsmserver.html#std-server-config-folder-vsmserver
 
--https://www.cendio.com/resources/docs/tag/man/tl-config.1.html
--https://community.thinlinc.com/t/thinlinc-and-tailscale/644/2
+- https://www.cendio.com/resources/docs/tag/man/tl-config.1.html
+- https://community.thinlinc.com/t/thinlinc-and-tailscale/644/2
 
-+https://www.cendio.com/resources/docs/tag/man/tl-config.1.html
++ https://www.cendio.com/resources/docs/tag/man/tl-config.1.html
 ___
