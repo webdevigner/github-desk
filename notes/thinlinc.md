@@ -30,11 +30,11 @@ the VSM Server always connects to the machine that is up and running.
     sudo nano vsmagent.hconf
 
 
-2. edit master_hostname with ip adress (master machine) from tailscale *
+2. - edit master_hostname with ip adress (master machine) from tailscale *
 
-   edit allowed_clients with ip adress (client machine) from tailscale **
+   - edit allowed_clients with ip adress (client machine) from tailscale **
 
-   edit agent_hostname with ip adress (master machine) from tailscale ***
+   - edit agent_hostname with ip adress (master machine) from tailscale ***
 
 
 > #The host that runs the VSM server (master machine)#
