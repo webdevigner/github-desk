@@ -1,5 +1,5 @@
 # thinlinc with tailscale #
-### **remote access to my home machine via Thinlinc through Tailscale from external network...**
+### **remote access to my home machine with Thinlinc through Tailscale from external network...**
 
 - I am trying to gain remote access from my laptop to my home machine via Thinlinc through Tailscale.
 It works fine on local network. But when I move to an external network,
