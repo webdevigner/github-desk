@@ -24,16 +24,18 @@ to ensure that services on the agents that need to access
 the VSM Server always connects to the machine that is up and running.
 
 
-1. open the terminal (master machine) go from root to directory *conf.d* and edit file: *vsmagent.hconf*
+1. open the terminal (master machine) and go from root to directory *conf.d*
 
 ##
     cd //opt/thinlinc/etc/conf.d
+
+2. edit file: *vsmagent.hconf*
 
 ##
     sudo nano vsmagent.hconf
 
 
-2. - edit "master_hostname" with ip adress (master machine) from tailscale *
+3. - edit "master_hostname" with ip adress (master machine) from tailscale *
 
    - edit "allowed_clients" with ip adress (client machine) from tailscale **
 
@@ -57,7 +59,7 @@ the VSM Server always connects to the machine that is up and running.
 >
 > agent_hostname=***
 
-3. restart service vsmagent
+4. restart service vsmagent
 
 ##
     systemctl restart vsmagent
