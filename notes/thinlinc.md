@@ -30,12 +30,22 @@ the VSM Server always connects to the machine that is up and running.
     sudo nano vsmagent.hconf
 
 
-2. edit master_hostname with ip adress from tailscale *
+2. edit master_hostname with ip adress (master machine) from tailscale *
+   edit allowed_clients with ip adress (client machine) from tailscale **
+   edit agent_hostname with ip adress (master machine) from tailscale ***
 
->##The host that runs the VSM server (master machine)##
->
->master_hostname=*
 
+# The host that runs the VSM server (master machine)
+master_hostname=*
+
+# Only allow connections from the VSM servers in this space-separated list.
+# localhost, hostname, IP and master_hostname are always allowed. NOTE: Do not
+# change this parameter unless you know what you are doing.
+allowed_clients=**
+
+# Public hostname; the hostname that clients are redirected to. If not
+# defined, the agent will use the computer's IP address.
+agent_hostname=***
 
 3. restart service vsmagent
 
@@ -49,7 +59,7 @@ ___
 - https://www.cendio.com/resources/docs/tag/man/tl-config.1.html
 - https://community.thinlinc.com/t/thinlinc-and-tailscale/644/2
 
-+ https://www.cendio.com/resources/docs/tag/man/tl-config.1.html
++ https://www.cendio.com/thinlinc/docs/install/simple-nat/
 ___
 
-last update thinlinc.md - 2025-04-27
+last update thinlinc.md - 2025-05-03
