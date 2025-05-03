@@ -24,7 +24,10 @@ to ensure that services on the agents that need to access
 the VSM Server always connects to the machine that is up and running.
 
 
-1. go to root /opt/thinlinc/etc/conf.d and edit file: vsmagent.hconf
+1. go from root to directory *conf.d* and edit file: *vsmagent.hconf*
+
+##
+    cd //opt/thinlinc/etc/conf.d
 
 ##
     sudo nano vsmagent.hconf
