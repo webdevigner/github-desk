@@ -39,14 +39,15 @@ the VSM Server always connects to the machine that is up and running.
 
 > #The host that runs the VSM server (master machine)#
 >
-
 > master_hostname=*
 
-> #Only allow connections from the VSM servers in this space-separated list.#
+
+> #Only allow connections from the VSM servers in this space-separated list.
 > localhost, hostname, IP and master_hostname are always allowed. NOTE: Do not
 > change this parameter unless you know what you are doing.#
 >
 > allowed_clients=**
+
 
 > #Public hostname; the hostname that clients are redirected to. If not
 > defined, the agent will use the computer's IP address.#
