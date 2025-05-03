@@ -39,11 +39,11 @@ the VSM Server always connects to the machine that is up and running.
 
    - edit "agent_hostname" with ip adress (master machine) from tailscale ***
 
-```
+
 > #The host that runs the VSM server (master machine)#
 >
 > master_hostname=*
-```
+
 
 > #Only allow connections from the VSM servers in this space-separated list.
 > localhost, hostname, IP and master_hostname are always allowed. NOTE: Do not
