@@ -51,13 +51,13 @@ the VSM Server always connects to the machine that is up and running.
 > localhost, hostname, IP and master_hostname are always allowed. NOTE: Do not
 > change this parameter unless you know what you are doing.#
 >
-> allowed_clients=**
+> <mark>allowed_clients=**</mark>
 
 
 > #Public hostname; the hostname that clients are redirected to. If not
 > defined, the agent will use the computer's IP address.#
 >
-> agent_hostname=***
+> <mark>agent_hostname=***</mark>
 
 4. restart service vsmagent
 
