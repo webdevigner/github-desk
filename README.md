@@ -12,4 +12,8 @@
 - update thinlinc.md
 
 #### 2025-05-03
-- update thinlinc.md folder name for seo
+- update thinlinc.md folder name
+
+
+
+last update README.md - 2025-05-04
