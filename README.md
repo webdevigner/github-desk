@@ -13,7 +13,7 @@
 
 #### 2025-05-04
 - update thinlinc.md folder name
-
+- learn to write markdown updating files
 &nbsp;
 &nbsp;
 
