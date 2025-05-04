@@ -15,4 +15,14 @@ ___
 - https://www.codecademy.com/resources/docs/markdown/blockquotes
 ____
 
-last update markdown.md - 2025-04-27
+**how to add extra spaces between paragraphs**
+
+- To add an extra line of space between paragraphs, add the HTML code, followed by two extra spaces (e.g. &nbsp.., replacing the periods with spaces). For an example, please see the Unordered Lists example, below.
+
+____
+https://technicqa.com/how-to-add-extra-space-between-paragraphs-in-markdown/
+&nbsp;
+&nbsp;
+&nbsp;
+
+last update markdown.md - 2025-05-04
