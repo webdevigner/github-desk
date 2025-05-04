@@ -74,4 +74,4 @@ ___
 + https://www.cendio.com/thinlinc/docs/install/simple-nat/
 ___
 
-last update thinlinc.md - 2025-05-03
+last update thinlinc.md - 2025-05-04
