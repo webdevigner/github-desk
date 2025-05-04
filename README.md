@@ -10,3 +10,6 @@
 #### 2025-05-03
 - update README.md
 - update thinlinc.md
+
+#### 2025-05-03
+- update thinlinc.md folder name for seo
