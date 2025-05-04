@@ -44,7 +44,7 @@ the VSM Server always connects to the machine that is up and running.
 
 > #The host that runs the VSM server (master machine)#
 >
-> master_hostname=*
+> <mark>master_hostname=*</mark>
 
 
 > #Only allow connections from the VSM servers in this space-separated list.
