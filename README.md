@@ -18,8 +18,12 @@
 #### 2025-05-10
 - deploy mK docs website test
 
-#### 2025-05-21
+#### 2025-05-21;05-22
 - update mK docs website test
+
+#### 2025-05-22
+- update mK docs website test
+- favi logo update
 &nbsp;
 &nbsp;
 
