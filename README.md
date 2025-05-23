@@ -28,7 +28,7 @@
 #### 2025-05-24
 - custom domain for mk docs with cloudflare
 - update website mk docs
-- ###deploy mkdocs 2.0 upgrade env with cloudflare pages###
+- ### deploy mkdocs 2.0 upgrade env with cloudflare pages ###
  
     Repo: https://github.com/svenvg93/mkdocs-material-starter
 
