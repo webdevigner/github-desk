@@ -15,6 +15,12 @@ now i configured my CNAME sub.[profilename.github.io] and www.sub.[profilename.g
 
 after that i saw DNS check succesful - now i see DNS check in Progress -constant- ????? 
 
+$ dig WWW.EXAMPLE.COM +nostats +nocomments +nocmd
+> ;WWW.EXAMPLE.COM.                    IN      A
+> WWW.EXAMPLE.COM.             3592    IN      CNAME   YOUR-USERNAME.github.io.
+> YOUR-USERNAME.github.io.      43192   IN      CNAME   GITHUB-PAGES-SERVER .
+> GITHUB-PAGES-SERVER .         22      IN      A       192.0.2.1
+
 ---
 i saw something about CNAME Flattening 
 think this can be the issue!! (I have to study more)
@@ -37,4 +43,8 @@ A custom subdomain is a type of subdomain that doesn't use the standard www vari
 
 https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages#supported-custom-domains
 
+https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-a-subdomain
+&nbsp;
+&nbsp;
+&nbsp;
 last update github-pages w/... 2025-05-23
