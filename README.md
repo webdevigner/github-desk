@@ -24,6 +24,15 @@
 #### 2025-05-22
 - update mK docs website test
 - favi logo update
+
+#### 2025-05-24
+- custom domain for mk docs with cloudflare
+- update website mk docs
+- deploy mkdocs 2.0 upgrade env with cloudflare pages
+    https://github.com/svenvg93/mkdocs-material-starter
+
+    video: https://www.youtube.com/watch?v=7-HhLascLuM
+- 
 &nbsp;
 &nbsp;
 
