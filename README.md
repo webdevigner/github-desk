@@ -29,10 +29,11 @@
 - custom domain for mk docs with cloudflare
 - update website mk docs
 - ###deploy mkdocs 2.0 upgrade env with cloudflare pages###
+ 
     Repo: https://github.com/svenvg93/mkdocs-material-starter
 
     video: https://www.youtube.com/watch?v=7-HhLascLuM
-- 
+ 
 &nbsp;
 &nbsp;
 
