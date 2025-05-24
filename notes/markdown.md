@@ -22,6 +22,16 @@ ____
 ____
 https://technicqa.com/how-to-add-extra-space-between-paragraphs-in-markdown/
 
+**markdown link opening in new tab
+ The kramdown syntax:
+
+[link name](url_link){:target="_blank"}
+
+can be parsed into HTML using the kramdown online editor: https://kramdown.herokuapp.com/ Then you can paste the HTML syntax into your markdown document.
+I used it because I already had quite a few kramdown references, and wanted to avoid retyping them in HTML.
+
+--algoquant
+
 &nbsp;
 &nbsp;
 &nbsp;
